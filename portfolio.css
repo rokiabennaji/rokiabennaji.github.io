@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+body{
+  color: #ffffff;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.nav a{
+  font-size: 18px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 3s;
+}
+.nav a:hover{
+  color: lightgreen;
+}
+.nav a.active{
+  color: lightgreen;
+  
+}
+ 
+.home{
+  
+  align-items: center;
+  padding: 0 10%;
+}
+.home-content{
+  background-color: transparent;
+  max-width: 600px;
+  margin-left: 200px;margin-top: 200px;
+}
+.home-content h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+span{
+    color: rgb(79, 250, 79);
+    font-family: 'cursive', serif;
+    
+}
+.home-content h3{
+  font-size: 32px;
+  font-weight: 700;
+  color: lightgreen;
+  
+}
+.home-content p{
+  font-size:16px;
+  margin:20px 0 40px;
+  line-height:1.2;
+}
+.home-content .hire{
+  display: flex;
+  justify-content: space-between;
+  width: 345px;
+  height: 50px;
+}
+.hire a{
+  position:relative;
+  display: inline-flex;
+  justify-content: center;
+  width: 150px;
+  height:100%;
+  background: lightgreen;
+  border: 2px solid lightgreen;
+  border-radius:8px;
+  font-size:19px;
+  color: #ffffff;
+  text-decoration:none;
+  font-weight: 600;
+  letter-spacing:1px;
+  z-index:1;
+  overflow: hidden;
+}
+.hire a:nth-child(2){
+  background-color:transparent;
+  color: lightgreen;
+}
+.hire a:hover{
+  color:rgb(255, 255, 255);
+}
+.home-sci{
+  position: absolute;
+  bottom:48px;
+  width:170px;
+  background:transparent;
+  display:flex;
+  justify-content:space-between;
+}
+.home-sci a{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:40px;
+  height:40px;
+  background: transparent;
+  border: 2px solid lightgreen;
+  border-radius: 50%;
+  font-size: 20px;
+  color:lightgreen;
+  z-index: 1;
+  
+}
+
+.about{
+  height: 100vh;
+  display: flex;
+  
+  align-items: center;
+  padding: 0 10%;
+}
+.about-content{
+  background-color: transparent;
+  max-width: 600px;
+}
+.about-content h1{
+  font-size: 40px;
+  font-weight: 500;
+  
+}
+.spa{
+  font-size:20px;
+  color: pink;
+}
+.about-content p{
+  font-size:16px;
+  margin:20px 0 40px;
+  line-height:1.2;
+}
+.skills{
+  height: 100vh;
+  display: flex;
+  
+  align-items: center;
+  padding: 0 10%;
+}
+.skills-content{
+  background-color: transparent;
+  max-width: 600px;
+}
+.skills-content h1{
+  font-size: 40px;
+  font-weight: 500;
+  
+}
+.skills-content p{
+  font-size:16px;
+  margin:20px 0 40px;
+  line-height:1.2;
+}
+.projects{
+  height: 100vh;
+  display: flex;
+  
+  align-items: center;
+  padding: 10%;
+}
+.projects-content{
+  background-color: transparent;
+  max-width: 600px;
+}
+.projects-content h1{
+  font-size: 40px;
+  font-weight: 500;
+  
+}
+.projects-content p{
+  font-size:16px;
+  margin:20px 0 40px;
+  line-height:1.2;
+}
+h2{
+  color: green;
+}
+h3,h4{
+  color: lightgreen;
+}
